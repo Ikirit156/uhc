@@ -1,0 +1,254 @@
+.frame6-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 92vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame6-frame6 {
+  width: 100%;
+  height: 1281px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame6-text {
+  left: 495px;
+  color: rgba(0, 0, 0, 1);
+  width: 973px;
+  height: auto;
+  position: absolute;
+  font-size: 96px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-group4 {
+  top: 145px;
+  left: 124px;
+  width: 598px;
+  height: 317px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame6-text02 {
+  color: rgba(0, 0, 0, 1);
+  width: 598px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-medal51 {
+  top: 39px;
+  left: 206px;
+  width: 165px;
+  height: 193px;
+  position: absolute;
+}
+.frame6-medal52 {
+  top: 94px;
+  left: 47px;
+  width: 150px;
+  height: 204px;
+  position: absolute;
+}
+.frame6-text04 {
+  top: 70px;
+  left: 234px;
+  color: rgba(0, 0, 0, 1);
+  width: 107px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-text08 {
+  top: 125px;
+  left: 65px;
+  color: rgba(0, 0, 0, 1);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-medal53 {
+  top: 124px;
+  left: 388px;
+  width: 154px;
+  height: 193px;
+  position: absolute;
+}
+.frame6-text12 {
+  top: 155px;
+  left: 426px;
+  color: rgba(0, 0, 0, 1);
+  width: 79px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-group5 {
+  top: 149px;
+  left: 1216px;
+  width: 625px;
+  height: 317px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame6-text16 {
+  color: rgba(0, 0, 0, 1);
+  width: 625px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-medal54 {
+  top: 39px;
+  left: 224px;
+  width: 165px;
+  height: 193px;
+  position: absolute;
+}
+.frame6-medal55 {
+  top: 94px;
+  left: 65px;
+  width: 150px;
+  height: 204px;
+  position: absolute;
+}
+.frame6-text18 {
+  top: 70px;
+  left: 252px;
+  color: rgba(0, 0, 0, 1);
+  width: 107px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-text22 {
+  top: 125px;
+  left: 83px;
+  color: rgba(0, 0, 0, 1);
+  width: 115px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-medal56 {
+  top: 124px;
+  left: 406px;
+  width: 154px;
+  height: 193px;
+  position: absolute;
+}
+.frame6-text26 {
+  top: 155px;
+  left: 428px;
+  color: rgba(0, 0, 0, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Amarante;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame6-rectangle7 {
+  top: 0px;
+  left: 0;
+  width: 630px;
+  height: 79px;
+  position: absolute;
+}
+.frame6-rectangle8 {
+  top: 0px;
+  left: 1285px;
+  width: 630px;
+  height: 79px;
+  position: absolute;
+}
+.frame6-image7 {
+  top: 479px;
+  left: -1px;
+  width: 1920px;
+  height: 798px;
+  position: absolute;
+}
+.frame6-line1 {
+  top: 1273px;
+  left: -1px;
+  width: 1920px;
+  height: 8px;
+  position: absolute;
+}
+.frame6-line2 {
+  top: 479px;
+  left: -1px;
+  width: 1920px;
+  height: 8px;
+  position: absolute;
+}

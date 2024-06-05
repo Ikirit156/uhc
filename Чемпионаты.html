@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Чемпионаты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amarante:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="frame1-container">
+        <div class="frame1-frame1">
+          <img
+            alt="Rectangle67361"
+            src="public/external/rectangle67361-5gff.svg"
+            class="frame1-rectangle6"
+          />
+          <img
+            alt="Rectangle57359"
+            src="public/external/rectangle57359-2r8.svg"
+            class="frame1-rectangle5"
+          />
+          <a href="Главная.html">
+          <img
+            alt="IMAGE1653"
+            src="public/external/image17633-zjyi-300h.png"
+            class="frame1-image1"
+            
+          />
+          </a>
+          <span class="frame1-text"><span>Take part in sports</span></span>
+          <div class="frame1-group6">
+            <a href="Центры.html">
+            <span class="frame1-text02"><span>Центры</span></span>
+            </a>
+            <a href="Игры Будущего.html">
+            <span class="frame1-text04"><span>“Игры будущего”</span></span>
+            </a>
+            <a href="Чемпионаты.html">
+            <span class="frame1-text06"><span>Чемпионаты</span></span>
+            </a>
+            <a href="О нас.html">
+              <span class="frame1-text08"><span>О нас</span></span>
+              </a>
+          </div>
+          <span class="frame1-text10"><span>Горный спуск/”Steep”</span></span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <link href="./frame2.css" rel="stylesheet" />
+
+      <div class="frame2-container">
+        <div class="frame2-frame2">
+          <img
+            alt="image47130"
+            src="public/external/image47130-zt8t-700w.png"
+            class="frame2-image4"
+          />
+          <img
+            alt="image37129"
+            src="public/external/image37129-l3f-1000h.png"
+            class="frame2-image3"
+          />
+          <img
+            alt="image16815"
+            src="public/external/image16815-2ivc-1000h.png"
+            class="frame2-image1"
+          />
+          <span class="frame2-text">
+            <span>
+              Первый в своем роде вид спорта в котором совмещен горный спукс и
+              копмпьютерной игрой “Steep”
+            </span>
+          </span>
+          <span class="frame2-text02"><span>ФИДЖИТАЛ ИГРЫ</span></span>
+          <span class="frame2-text04">
+            <span>
+              Фиджитал Игры – серия соревнований нового формата, которые покажут
+              миру новый подход в спорте и что такое фиджитал-спорт.
+            </span>
+          </span>
+          <span class="frame2-text06"><span>Дисциплины:</span></span>
+          <span class="frame2-text08">
+            <span>Горный спуск(лыжи)+ Steep</span>
+            <br />
+            <span></span>
+            <br />
+            <span>Горный спуск(сноуборд)+Steep</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <link href="./frame3.css" rel="stylesheet" />
+
+      <div class="frame3-container">
+        <div class="frame3-frame3">
+          <img
+            alt="image67134"
+            src="public/external/image67134-tt4l-500w.png"
+            class="frame3-image6"
+          />
+          <img
+            alt="Rectangle97612"
+            src="public/external/rectangle97612-aoyg.svg"
+            class="frame3-rectangle9"
+          />
+          <span class="frame3-text"><span>Даты:</span></span>
+          <span class="frame3-text02"><span>21-26 Января 2025</span></span>
+          <span class="frame3-text04"><span>Место проведения:</span></span>
+          <span class="frame3-text06">
+            <span>Красноярск,</span>
+            <br />
+            <span>Каштак</span>
+          </span>
+          <img
+            alt="image27127"
+            src="public/external/image27127-40w-1100h.png"
+            class="frame3-image2"
+          />
+          <img
+            alt="image57133"
+            src="public/external/image57133-yo9-500w.png"
+            class="frame3-image5"
+          />
+          <img
+            alt="Rectangle127620"
+            src="public/external/rectangle127620-45ct-200h.png"
+            class="frame3-rectangle12"
+          />
+          <a href="Регистрация.html">
+          <span class="frame3-text10"><span>Зарегистроваться</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <link href="./frame4.css" rel="stylesheet" />
+
+      <div class="frame4-container">
+        <div class="frame4-frame4">
+          <img
+            alt="image8765"
+            src="public/external/image8765-ca3i-800w.png"
+            class="frame4-image8"
+          />
+          <img
+            alt="image9766"
+            src="public/external/image9766-1hcd-600w.png"
+            class="frame4-image9"
+          />
+          <img
+            alt="image10767"
+            src="public/external/image10767-4ih-600w.png"
+            class="frame4-image10"
+          />
+          <span class="frame4-text"><span>Место проведения:</span></span>
+          <span class="frame4-text02">
+            <span>Новосибирск,</span>
+            <br />
+            <span>горнолыжный курорт</span>
+            <br />
+            <span>“Ключи”</span>
+          </span>
+          <span class="frame4-text08">
+            <span>Даты:</span>
+            <br />
+            <span></span>
+          </span>
+          <span class="frame4-text12">
+            <span>12-18</span>
+            <br />
+            <span>Февраля</span>
+            <br />
+            <span>2025 год</span>
+          </span>
+          <img
+            alt="Rectangle107618"
+            src="public/external/rectangle107618-m6lk.svg"
+            class="frame4-rectangle10"
+          />
+          <img
+            alt="Rectangle147624"
+            src="public/external/rectangle147624-fcyn-200h.png"
+            class="frame4-rectangle14"
+          />
+          <a href="Регистрация.html">
+          <span class="frame4-text18"><span>Зарегистроваться</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./frame5.css" rel="stylesheet" />
+
+      <div class="frame5-container">
+        <div class="frame5-frame5">
+          <img
+            alt="image117614"
+            src="public/external/image117614-xupe-1000h.png"
+            class="frame5-image11"
+          />
+          <img
+            alt="image127615"
+            src="public/external/image127615-h91j-1000h.png"
+            class="frame5-image12"
+          />
+          <img
+            alt="Rectangle137622"
+            src="public/external/rectangle137622-0l5-200h.png"
+            class="frame5-rectangle13"
+          />
+          <a href="Регистрация.html">
+          <span class="frame5-text"><span>Зарегистроваться</span></span>
+          </a>
+          <span class="frame5-text02"><span>Место проведения:</span></span>
+          <span class="frame5-text04">
+            <span>Омск,</span>
+            <br />
+            <span>Сноупарк Крутая горка</span>
+          </span>
+          <span class="frame5-text08">
+            <span>Даты:</span>
+            <br />
+            <span></span>
+          </span>
+          <span class="frame5-text12">
+            <span>3-6</span>
+            <br />
+            <span>Марта</span>
+            <br />
+            <span>2025 год</span>
+          </span>
+          <img
+            alt="Rectangle117619"
+            src="public/external/rectangle117619-du8r.svg"
+            class="frame5-rectangle11"
+          />
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./frame6.css" rel="stylesheet" />
+
+      <div class="frame6-container">
+        <div class="frame6-frame6">
+          <span class="frame6-text"><span>Чемпионы:</span></span>
+          <div class="frame6-group4">
+            <span class="frame6-text02">
+              <span>Горный спуск(лыжи)+ Steep:</span>
+            </span>
+            <img
+              alt="medal518332"
+              src="public\external\medal5 1.png"
+              class="frame6-medal51"
+            />
+            <img
+              alt="medal528335"
+              src="public\external\medal5 2.png"
+              class="frame6-medal52"
+            />
+            <span class="frame6-text04">
+              <span>Mataroll</span>
+              <br />
+              <span>Россия</span>
+            </span>
+            <span class="frame6-text08">
+              <span>Qusa</span>
+              <br />
+              <span>Германия</span>
+            </span>
+            <img
+              alt="medal538339"
+              src="public\external\medal5 3.png"
+              class="frame6-medal53"
+            />
+            <span class="frame6-text12">
+              <span>Usia</span>
+              <br />
+              <span>Китай</span>
+            </span>
+          </div>
+          <div class="frame6-group5">
+            <span class="frame6-text16">
+              <span>Горный спуск(сноуборд)+ Steep:</span>
+            </span>
+            <img
+              alt="medal548341"
+              src="public\external\medal5 1.png"
+              class="frame6-medal54"
+            />
+            <img
+              alt="medal558342"
+              src="public\external\medal5 2.png"
+              class="frame6-medal55"
+            />
+            <span class="frame6-text18">
+              <span>Nisini</span>
+              <br />
+              <span>Япония</span>
+            </span>
+            <span class="frame6-text22">
+              <span>Rocokog</span>
+              <br />
+              <span>Россия</span>
+            </span>
+            <img
+              alt="medal568345"
+              src="public\external\medal5 3.png"
+              class="frame6-medal56"
+            />
+            <span class="frame6-text26">
+              <span>Ivenceri</span>
+              <br />
+              <span>Испания</span>
+            </span>
+          </div>
+          <img
+            alt="Rectangle77362"
+            src="public\external\Rectangle 7.png"
+            class="frame6-rectangle7"
+          />
+          <img
+            alt="Rectangle87363"
+            src="public\external\Rectangle 8.png"
+            class="frame6-rectangle8"
+          />
+          <img
+            alt="image77367"
+            src="public\external\image 7.png"
+            class="frame6-image7"
+          />
+        
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./frame7.css" rel="stylesheet" />
+
+      <div class="frame7-container">
+        <div class="frame7-frame7">
+          <a href="Главная.html">
+          <img
+            alt="IMAGE27349"
+            src="public/external/image17633-zjyi-300h.png"
+            class="frame7-image2"
+          />
+          </a>
+          <span class="frame7-text"><span>Горный спуск/”Steep”</span></span>
+          <img
+            alt="Rectangle27353"
+            src="public\external\Rectangle 2.png"
+            class="frame7-rectangle2"
+          />
+          <span class="frame7-text2"><span>info@phygitalsport.ru</span></span>
+          <img
+            alt="Rectangle37354"
+            src="public\external\Rectangle 3.png"
+            class="frame7-rectangle3"
+          />
+          <div class="frame7-socials">
+            <a href="https://discord.gg/HNnsaa5S">
+            <img
+              alt="Rectangle1I815"
+              src="public\external\socials.png"
+              class="frame7-rectangle1"
+            />
+            </a>
+          </div>
+          <div class="frame7-socials1">
+            <a href="https://t.me/phygitalgallery">
+            <img
+              alt="Rectangle1I815"
+              src="public\external\socials1.png"
+              class="frame7-rectangle11"
+            />
+            </a>
+          </div>
+          <div class="frame7-socials2">
+            <a href="https://www.youtube.com/@GoFutureGames/featured">
+            <img
+              alt="Rectangle1I815"
+              src="public\external\socials2.png"
+              class="frame7-rectangle12"
+            />
+            </a>
+          </div>
+          <div class="frame7-socials3">
+            <a href="https://vk.com/kras_fgtl">
+            <img
+              alt="Rectangle1I815"
+              src="public\external\socials3.png"
+              class="frame7-rectangle13"
+            />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
